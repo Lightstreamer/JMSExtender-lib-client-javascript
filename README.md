@@ -1,8 +1,10 @@
 # Lightstreamer JMS Extender Client SDK
 
-This JavaScript library enables any JavaScript application running in a web browser or a Node.js container to connect to a JMS broker via JMS Extender or Lightstreamer Server with JMS Extender Adapter.
+This JavaScript library enables any JavaScript application running in a web browser or a Node.js container to connect to a JMS broker via [JMS Extender](https://lightstreamer.com/ls-jms-features) or [Lightstreamer Server](https://lightstreamer.com) with JMS Extender Adapter.
 
-The library is designed to be as class-by-class and method-by-method equivalent to JMS API 2.0 as possible. Some differences still apply, mainly due to JavaScript asynchronous nature. Most notably, some JMS synchronous APIs, like `createConnection`, here require a callback and will be called asynchronously.
+The library is designed to be as class-by-class and method-by-method equivalent to [JMS API 2.0](https://jakarta.ee/specifications/messaging/) as possible. Some differences still apply, mainly due to JavaScript asynchronous nature. Most notably, some JMS synchronous APIs, like `createConnection`, here require a callback and will be called asynchronously.
+
+## Quickstart
 
 Following is an example of a topic connection and subscription:
 
@@ -63,4 +65,44 @@ jms.ConnectionFactory.createConnection("http://my.push.server:8080/", "ActiveMQ"
     });
 ```
 
-Please refer to JMS Extender documentation to learn more about the system architecture and how to configure and deploy it.
+## npm Packages
+
+The library is available as npm package, so you can download and install it through:
+
+```
+npm install lightstreamer-jms-web-client
+```
+
+or
+
+```
+npm install lightstreamer-jms-node-client
+```
+
+- [npm Web Package](https://www.npmjs.com/package/lightstreamer-jms-web-client)
+
+- [npm Node.js Package](https://www.npmjs.com/package/lightstreamer-jms-node-client)
+
+## Building
+
+To build the library, enter the directory `tools` and run the command `node build_web.js` or the command `node build_node.js`. The first time you should also enter the root directory of the project and run the command `npm install` in order to install the dependencies required by the build scripts. The scripts requires Node.js version 14 or greater.
+
+The artifacts generated are saved in the directories `tools/dist-web` and `tools/dist-node`.
+
+## Documentation
+
+- [Live demos](https://demos.lightstreamer.com/?p=jmsextender&t=client&lclient=html&lclient=nodejs)
+
+- [Web API Reference](https://www.lightstreamer.com/api/ls-jms-web-client/latest/index.html)
+
+- [Node.js API Reference](https://www.lightstreamer.com/api/ls-jms-nodejs-client/latest/index.html)
+
+- [General Concepts](https://lightstreamer.com/docs/jmsext/latest/JMS%20Extender%20Documentation.pdf)
+
+## Support
+
+For questions and support please use the [Official Forum](https://forums.lightstreamer.com/). The issue list of this page is **exclusively** for bug reports and feature requests.
+
+## License
+
+[Apache 2.0](https://opensource.org/licenses/Apache-2.0)
