@@ -85,7 +85,7 @@ npm install lightstreamer-jms-node-client
 
 ## Building
 
-To build the library, enter the directory `tools` and run the command `node build_web.js` or the command `node build_node.js`. The first time you should also enter the root directory of the project and run the command `npm install` in order to install the dependencies required by the build scripts. The scripts requires Node.js version 14 or greater.
+To build the library, enter the directory `tools` and run the command `node build_web.js` or the command `node build_node.js`. The first time you should also enter the root directory of the project and run the command `npm install` in order to install the dependencies required by the build scripts. The scripts require Node.js version 14 or greater.
 
 The artifacts generated are saved in the directories `tools/dist-web` and `tools/dist-node`.
 
