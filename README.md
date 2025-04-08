@@ -1,6 +1,6 @@
 # Lightstreamer JMS Extender Client SDK
 
-This JavaScript library enables any JavaScript application running in a web browser or a Node.js container to connect to a JMS broker via [JMS Extender](https://lightstreamer.com/ls-jms-features) or [Lightstreamer Server](https://lightstreamer.com) with JMS Extender Adapter.
+This JavaScript library enables any JavaScript application running in a web browser or a Node.js container to connect to a JMS broker via [JMS Extender](https://lightstreamer.com/products/jms-connector/) or [Lightstreamer Server](https://lightstreamer.com) with JMS Extender Adapter.
 
 The library is designed to be as class-by-class and method-by-method equivalent to [JMS API 2.0](https://jakarta.ee/specifications/messaging/) as possible. Some differences still apply, mainly due to JavaScript asynchronous nature. Most notably, some JMS synchronous APIs, like `createConnection`, here require a callback and will be called asynchronously.
 
@@ -79,9 +79,9 @@ or
 npm install lightstreamer-jms-node-client
 ```
 
-- [npm Web Package](https://www.npmjs.com/package/lightstreamer-jms-web-client)
+- [npm Web Package](https://www.npmjs.com/package/lightstreamer-jms-web-client/v/3.0.0)
 
-- [npm Node.js Package](https://www.npmjs.com/package/lightstreamer-jms-node-client)
+- [npm Node.js Package](https://www.npmjs.com/package/lightstreamer-jms-node-client/v/3.0.0)
 
 ## Building
 
@@ -93,15 +93,15 @@ The artifacts generated are saved in the directories `tools/dist-web` and `tools
 
 - [Live demos](https://demos.lightstreamer.com/?p=jmsextender&t=client&lclient=html&lclient=nodejs)
 
-- [Web API Reference](https://www.lightstreamer.com/api/ls-jms-web-client/latest/index.html)
+- [Web API Reference](https://lightstreamer.com/sdks/ls-jms-web-client/3.0.0/api/index.html)
 
-- [Node.js API Reference](https://www.lightstreamer.com/api/ls-jms-nodejs-client/latest/index.html)
+- [Node.js API Reference](https://lightstreamer.com/sdks/ls-jms-nodejs-client/3.0.0/api/index.html)
 
-- [General Concepts](https://lightstreamer.com/docs/jmsext/latest/JMS%20Extender%20Documentation.pdf)
+- [General Concepts](https://lightstreamer.com/distros/jmsext/2.1.0/docs/JMS%20Extender%20Documentation.pdf)
 
 ## Support
 
-For questions and support please use the [Official Forum](https://forums.lightstreamer.com/). The issue list of this page is **exclusively** for bug reports and feature requests.
+For questions and support please use the [Official Forum](https://forum.lightstreamer.com/). The issue list of this page is **exclusively** for bug reports and feature requests.
 
 ## License
 
