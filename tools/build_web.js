@@ -12,7 +12,7 @@ let srcDir, outFile, versionNum, buildNum;
 if (args.length != 4) {
     srcDir = '../source'
     outFile = 'dist-web/lightstreamer-jms.js'
-    versionNum = '3.0.0-custom'
+    versionNum = '3.0.1-custom'
     buildNum = 1
 } else {
     [srcDir, outFile, versionNum, buildNum] = args
