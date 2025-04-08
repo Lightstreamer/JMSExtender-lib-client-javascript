@@ -79,9 +79,9 @@ or
 npm install lightstreamer-jms-node-client
 ```
 
-- [npm Web Package](https://www.npmjs.com/package/lightstreamer-jms-web-client/v/3.0.0)
+- [npm Web Package](https://www.npmjs.com/package/lightstreamer-jms-web-client/v/3.0.1)
 
-- [npm Node.js Package](https://www.npmjs.com/package/lightstreamer-jms-node-client/v/3.0.0)
+- [npm Node.js Package](https://www.npmjs.com/package/lightstreamer-jms-node-client/v/3.0.1)
 
 ## Building
 
@@ -93,9 +93,9 @@ The artifacts generated are saved in the directories `tools/dist-web` and `tools
 
 - [Live demos](https://demos.lightstreamer.com/?p=jmsextender&t=client&lclient=html&lclient=nodejs)
 
-- [Web API Reference](https://lightstreamer.com/sdks/ls-jms-web-client/3.0.0/api/index.html)
+- [Web API Reference](https://lightstreamer.com/sdks/ls-jms-web-client/3.0.1/api/index.html)
 
-- [Node.js API Reference](https://lightstreamer.com/sdks/ls-jms-nodejs-client/3.0.0/api/index.html)
+- [Node.js API Reference](https://lightstreamer.com/sdks/ls-jms-nodejs-client/3.0.1/api/index.html)
 
 - [General Concepts](https://lightstreamer.com/distros/jmsext/2.1.0/docs/JMS%20Extender%20Documentation.pdf)
 
